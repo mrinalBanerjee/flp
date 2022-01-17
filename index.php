@@ -16,7 +16,7 @@
                
                 var input = document.createElement("input");
                 input.type = "text";
-                 name="textdata"
+                 input.name="textdata"
                 input.name ="exampleFormControlSelect1" + i;
                 container.appendChild(input);
                 
