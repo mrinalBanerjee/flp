@@ -26,6 +26,11 @@
 
             }
         }
+
+        function printPage() { 
+            window.print(); 
+        } 
+    
     </script>
 </head>
 <body>
