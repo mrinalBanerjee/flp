@@ -46,7 +46,9 @@
     <div id="container"></div>
   <input type="submit" name="submit">
   </form>
-  <a href=\"indexx.php\" onClick=\"window.print();return false\">Download web page</a>
+  <button onclick="printPage()">Print this page</button> 
+
+
   <?php
               
 if(isset($_POST['textdata']))
